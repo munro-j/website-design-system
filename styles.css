@@ -23,6 +23,7 @@ body {
 .site-heading h1 {
     font-weight: 700;
     text-align: center;
+    font-size: 3em;
 }
 
 .site-heading h3 {
@@ -30,8 +31,18 @@ body {
     text-align: center;
 }
 
+.section-head {
+    text-align: center;
+    font-size: 2em;
+}
+
 
 /* Colours Styles */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .container .colour {
     border: 2px solid black;
