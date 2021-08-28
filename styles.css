@@ -31,6 +31,26 @@ body {
     text-align: center;
 }
 
+nav {
+    text-align: center;
+}
+
+.nav-links li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px;
+}
+
+.nav-links li a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: blue;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .section-head {
     text-align: center;
     font-size: 2em;
